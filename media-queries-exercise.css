@@ -19,6 +19,15 @@ body{
         flex-direction: column;
 
     }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    #social-media-links {
+        display: flex;
+        justify-content: space-around;
+    }
+
     .nav-links{
         display: flex;
         list-style: none;
@@ -53,14 +62,19 @@ body{
     .main{
         display: flex;
         flex-wrap: wrap;
+        font-size: 20px;
     }
     .sub-section{
        display: flex;
         flex-wrap: wrap;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
         /*width: calc(25% - 16px);*/
         /*margin: 8px;*/
 
     }
+
 
 }
 /*desktop media*/
@@ -83,9 +97,6 @@ nav{
     display: flex;
 <<<<<<< HEAD
     /*justify-content: space-evenly;*/
-
-=======
->>>>>>> d65cf2ac214632f417978103119cbfa2f97ba169
 }
 
 
@@ -98,4 +109,7 @@ a{
    flex-wrap: wrap;
     display: inline-block;
 }
+
+
+
 
