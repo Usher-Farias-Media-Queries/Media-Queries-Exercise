@@ -10,7 +10,7 @@ body{
 }
 
 /*mobile media*/
-@media screen and (min-width: 365px) and (max-width: 1192px){
+@media screen and (min-width: 365px) and (max-width: 933px){
     .hidden-on-desktop{
         background-color: #99ffff;
         display: flex;
@@ -79,10 +79,10 @@ body{
 }
 /*desktop media*/
 @media screen and (min-width: 934px) and (max-width: 1210px){
-    .hide-on-small{
-        display: block;
+    /*.hide-on-small{*/
+    /*    display: block;*/
 
-    }
+    /*}*/
 
 .title{
     display: flex;
@@ -90,25 +90,40 @@ body{
     font-size: xxx-large;
     padding: 0;
     margin: 0;
-
 }
 
 nav{
     display: flex;
-<<<<<<< HEAD
-    /*justify-content: space-evenly;*/
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 50px;
+    /*display: block;*/
+}
+    .nav-links{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .alert-info{
+        display: none;
+    }
+
+
+
+
+
+
 }
 
-
-
-
-
-
-}
-a{
-   flex-wrap: wrap;
-    display: inline-block;
-}
 
 
 
