@@ -33,7 +33,7 @@ body{
 
 nav{
     display: flex;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
 
 }
 
@@ -43,6 +43,7 @@ img{
 }
 
 .nav-links{
+
     display: flex;
     justify-content: space-evenly;
     list-style: none;
