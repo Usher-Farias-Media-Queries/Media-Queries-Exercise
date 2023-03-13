@@ -9,6 +9,8 @@ body{
     flex-direction: column;
 }
 
+
+
 /*mobile media*/
 @media screen and (min-width: 365px) and (max-width: 933px){
     .hidden-on-desktop{
@@ -74,11 +76,15 @@ body{
         /*margin: 8px;*/
 
     }
+    i{
+        display: flex;
+        padding: 5px;
+    }
 
 
 }
 /*desktop media*/
-@media screen and (min-width: 934px) and (max-width: 1210px){
+@media screen and (min-width: 934px) and (max-width: 1500px){
     /*.hide-on-small{*/
     /*    display: block;*/
 
@@ -117,11 +123,28 @@ nav{
         display: none;
     }
 
+    .sub-section{
+        display: flex;
+        flex-wrap: wrap;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
 
-
-
-
-
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    #social-media-links {
+        display: flex;
+        justify-content: space-evenly;
+        float: right;
+    }
+    i{
+        display: flex;
+        padding: 5px;
+    }
 }
 
 
